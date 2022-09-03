@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">DrawerNavigation</string>
+    <string name="semua_kotak_masuk">Semua kotak masuk</string>
+    <string name="utama">Utama</string>
+    <string name="sosial">Sosial</string>
+    <string name="promosi">Promosi</string>
+    <string name="team_2">Team 2</string>
+    <string name="team2_gmail_com">team2@gmail.com</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title">Team 2</string>
+    <string name="time">03.22</string>
 </resources>

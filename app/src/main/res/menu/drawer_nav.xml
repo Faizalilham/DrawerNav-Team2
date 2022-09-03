@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/kotak_masuk"
+        android:title="@string/semua_kotak_masuk"
+        android:icon="@drawable/ic_social"/>
+    <item
+        android:id="@+id/utama"
+        android:title="@string/utama"
+        android:icon="@drawable/ic_social"/>
+    <item
+        android:id="@+id/social"
+        android:title="@string/sosial"
+        android:icon="@drawable/ic_social"/>
+    <item
+        android:id="@+id/promosi"
+        android:title="@string/promosi"
+        android:icon="@drawable/ic_social"/>
+</menu>
