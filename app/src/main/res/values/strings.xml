@@ -1,13 +1,30 @@
 <resources>
     <string name="app_name">DrawerNavigation</string>
-    <string name="semua_kotak_masuk">Semua kotak masuk</string>
-    <string name="utama">Utama</string>
-    <string name="sosial">Sosial</string>
-    <string name="promosi">Promosi</string>
+    <string name="semua_kotak_masuk">All inboxes</string>
+    <string name="utama">Primary</string>
+    <string name="sosial">Social</string>
+    <string name="promosi">Promotions</string>
     <string name="team_2">Team 2</string>
     <string name="team2_gmail_com">team2@gmail.com</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
     <string name="title">Team 2</string>
     <string name="time">03.22</string>
+    <string name="starred">Starred</string>
+    <string name="snoozed">Snoozed</string>
+    <string name="important">Important</string>
+    <string name="sent">Sent</string>
+    <string name="scheduled">Scheduled</string>
+    <string name="outbox">Outbox</string>
+    <string name="drafts">Drafts</string>
+    <string name="all_mail">All mail</string>
+    <string name="spam">Spam</string>
+    <string name="bin">Bin</string>
+    <string name="junk">Junk</string>
+    <string name="calendar">Calendar</string>
+    <string name="google_apps">Google Apps</string>
+    <string name="contacts">Contacts</string>
+    <string name="settings">Settings</string>
+    <string name="help_and_feedback">Help and feedback</string>
+    <string name="all_labels">All labels</string>
 </resources>
