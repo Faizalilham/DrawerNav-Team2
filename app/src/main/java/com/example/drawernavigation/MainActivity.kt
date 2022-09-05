@@ -25,10 +25,27 @@ class MainActivity : AppCompatActivity() {
 
         binding.drawerNavView.setNavigationItemSelectedListener {
             when(it.itemId){
-                R.id.kotak_masuk -> Toast.makeText(this,"Pesan Web Terklik", Toast.LENGTH_SHORT).show()
-                R.id.utama -> Toast.makeText(this,"Group Terklik", Toast.LENGTH_SHORT).show()
-                R.id.social -> Toast.makeText(this,"Setelan Terklik", Toast.LENGTH_SHORT).show()
-                R.id.promosi -> Toast.makeText(this,"Bagikan Terklik", Toast.LENGTH_SHORT).show()
+                R.id.kotak_masuk -> Toast.makeText(this,"All In Box Terklik", Toast.LENGTH_SHORT).show()
+                R.id.utama -> Toast.makeText(this,"Primary Terklik", Toast.LENGTH_SHORT).show()
+                R.id.social -> Toast.makeText(this,"Social Terklik", Toast.LENGTH_SHORT).show()
+                R.id.promosi -> Toast.makeText(this,"Promotions Terklik", Toast.LENGTH_SHORT).show()
+                R.id.menuStarred -> Toast.makeText(this,"Starred Terklik", Toast.LENGTH_SHORT).show()
+                R.id.menuSnoozed -> Toast.makeText(this,"Snoozed Terklik", Toast.LENGTH_SHORT).show()
+                R.id.menuImportant -> Toast.makeText(this,"Important Terklik", Toast.LENGTH_SHORT).show()
+                R.id.menuSent -> Toast.makeText(this,"Send Terklik", Toast.LENGTH_SHORT).show()
+                R.id.menuScheduled -> Toast.makeText(this,"Scheduled Terklik", Toast.LENGTH_SHORT).show()
+                R.id.menuOutbox -> Toast.makeText(this,"Outbox Terklik", Toast.LENGTH_SHORT).show()
+                R.id.menuDrafts -> Toast.makeText(this,"Drafts Terklik", Toast.LENGTH_SHORT).show()
+                R.id.menuAllMails -> Toast.makeText(this,"AllMails Terklik", Toast.LENGTH_SHORT).show()
+                R.id.menuSpam -> Toast.makeText(this,"MenuSpam Terklik", Toast.LENGTH_SHORT).show()
+                R.id.menuBin -> Toast.makeText(this,"MenuBin Terklik", Toast.LENGTH_SHORT).show()
+                R.id.menuJunk -> Toast.makeText(this,"MenuJunk Terklik", Toast.LENGTH_SHORT).show()
+                R.id.menuCalendar -> Toast.makeText(this,"MenuCalender Terklik", Toast.LENGTH_SHORT).show()
+                R.id.menuContacs -> Toast.makeText(this,"menuContacs Terklik", Toast.LENGTH_SHORT).show()
+                R.id.menuSettings -> Toast.makeText(this,"MenuSetting Terklik", Toast.LENGTH_SHORT).show()
+                R.id.menuHelpFeedback-> Toast.makeText(this,"MenuHelpFeedback Terklik", Toast.LENGTH_SHORT).show()
+
+
             }
                 true
         }
