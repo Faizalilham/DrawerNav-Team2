@@ -33,50 +33,53 @@
             android:id="@+id/allLabels"
             android:title="@string/all_labels">
             <menu>
-                <item
-                    android:id="@+id/menuStarred"
-                    android:title="@string/starred"
-                    android:icon="@drawable/ic_star_outline"/>
-                <item
-                    android:id="@+id/menuSnoozed"
-                    android:title="@string/snoozed"
-                    android:icon="@drawable/ic_snoozed"/>
-                <item
-                    android:id="@+id/menuImportant"
-                    android:title="@string/important"
-                    android:icon="@drawable/ic_important"/>
-                <item
-                    android:id="@+id/menuSent"
-                    android:title="@string/sent"
-                    android:icon="@drawable/ic_sent"/>
-                <item
-                    android:id="@+id/menuScheduled"
-                    android:title="@string/scheduled"
-                    android:icon="@drawable/ic_schedule"/>
-                <item
-                    android:id="@+id/menuOutbox"
-                    android:title="@string/outbox"
-                    android:icon="@drawable/ic_outbox"/>
-                <item
-                    android:id="@+id/menuDrafts"
-                    android:title="@string/drafts"
-                    android:icon="@drawable/ic_drafts"/>
-                <item
-                    android:id="@+id/menuAllMails"
-                    android:title="@string/all_mail"
-                    android:icon="@drawable/ic_allemail"/>
-                <item
-                    android:id="@+id/menuSpam"
-                    android:title="@string/spam"
-                    android:icon="@drawable/ic_spam"/>
-                <item
-                    android:id="@+id/menuBin"
-                    android:title="@string/bin"
-                    android:icon="@drawable/ic_bin"/>
-                <item
-                    android:id="@+id/menuJunk"
-                    android:title="@string/junk"
-                    android:icon="@drawable/ic_junk"/>
+                <group
+                    android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/menuStarred"
+                        android:title="@string/starred"
+                        android:icon="@drawable/ic_star_outline"/>
+                    <item
+                        android:id="@+id/menuSnoozed"
+                        android:title="@string/snoozed"
+                        android:icon="@drawable/ic_snoozed"/>
+                    <item
+                        android:id="@+id/menuImportant"
+                        android:title="@string/important"
+                        android:icon="@drawable/ic_important"/>
+                    <item
+                        android:id="@+id/menuSent"
+                        android:title="@string/sent"
+                        android:icon="@drawable/ic_sent"/>
+                    <item
+                        android:id="@+id/menuScheduled"
+                        android:title="@string/scheduled"
+                        android:icon="@drawable/ic_schedule"/>
+                    <item
+                        android:id="@+id/menuOutbox"
+                        android:title="@string/outbox"
+                        android:icon="@drawable/ic_outbox"/>
+                    <item
+                        android:id="@+id/menuDrafts"
+                        android:title="@string/drafts"
+                        android:icon="@drawable/ic_drafts"/>
+                    <item
+                        android:id="@+id/menuAllMails"
+                        android:title="@string/all_mail"
+                        android:icon="@drawable/ic_allemail"/>
+                    <item
+                        android:id="@+id/menuSpam"
+                        android:title="@string/spam"
+                        android:icon="@drawable/ic_spam"/>
+                    <item
+                        android:id="@+id/menuBin"
+                        android:title="@string/bin"
+                        android:icon="@drawable/ic_bin"/>
+                    <item
+                        android:id="@+id/menuJunk"
+                        android:title="@string/junk"
+                        android:icon="@drawable/ic_junk"/>
+                </group>
             </menu>
         </item>
 
@@ -84,14 +87,17 @@
             android:id="@+id/googleApps"
             android:title="@string/google_apps">
             <menu>
-                <item
-                    android:id="@+id/menuCalendar"
-                    android:title="@string/calendar"
-                    android:icon="@drawable/ic_calendar"/>
-                <item
-                    android:id="@+id/menuContacs"
-                    android:title="@string/contacts"
-                    android:icon="@drawable/ic_contacts"/>
+                <group
+                    android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/menuCalendar"
+                        android:title="@string/calendar"
+                        android:icon="@drawable/ic_calendar"/>
+                    <item
+                        android:id="@+id/menuContacs"
+                        android:title="@string/contacts"
+                        android:icon="@drawable/ic_contacts"/>
+                </group>
             </menu>
         </item>
     </group>
