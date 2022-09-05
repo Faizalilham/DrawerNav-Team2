@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:id="@+id/drawerLayout"
     android:layout_height="match_parent"
+    tools:openDrawer="start"
     tools:context=".MainActivity">
 
 
@@ -87,8 +88,8 @@
             android:textColor="@color/black"
             android:textSize="@dimen/sp16"
             android:textStyle="bold"
-            app:layout_constraintStart_toEndOf="@+id/imgProfile2"
-            app:layout_constraintTop_toBottomOf="@+id/tvSubTitle" />
+            app:layout_constraintStart_toEndOf="@id/imgProfile2"
+            app:layout_constraintTop_toBottomOf="@id/tvSubTitle" />
 
         <TextView
             android:id="@+id/tvSubTitle2"
@@ -97,8 +98,8 @@
             android:layout_marginStart="15dp"
             android:text="Team 3"
             android:textColor="@color/black"
-            app:layout_constraintStart_toEndOf="@+id/imgProfile2"
-            app:layout_constraintTop_toBottomOf="@+id/tvTitle2" />
+            app:layout_constraintStart_toEndOf="@id/imgProfile2"
+            app:layout_constraintTop_toBottomOf="@id/tvTitle2" />
 
 
         <TextView
@@ -111,17 +112,17 @@
             android:textColor="@color/blue"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+            app:layout_constraintTop_toBottomOf="@id/imageView2" />
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@id/imageView"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginTop="@dimen/dp10"
             android:layout_marginEnd="@dimen/dp10"
             android:src="@drawable/star"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvTime2" />
+            app:layout_constraintTop_toBottomOf="@id/tvTime2" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/imgProfile3"
@@ -130,7 +131,7 @@
             android:layout_margin="15dp"
             android:src="@drawable/tiga"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imgProfile2" />
+            app:layout_constraintTop_toBottomOf="@id/imgProfile2" />
 
         <TextView
             android:id="@+id/tvTitle3"
@@ -142,8 +143,8 @@
             android:textColor="@color/black"
             android:textSize="@dimen/sp16"
             android:textStyle="bold"
-            app:layout_constraintStart_toEndOf="@+id/imgProfile3"
-            app:layout_constraintTop_toBottomOf="@+id/tvSubTitle2" />
+            app:layout_constraintStart_toEndOf="@id/imgProfile3"
+            app:layout_constraintTop_toBottomOf="@id/tvSubTitle2" />
 
 
         <TextView
@@ -153,8 +154,8 @@
             android:text="Team 4"
             android:layout_marginStart="@dimen/dp15"
             android:textColor="@color/black"
-            app:layout_constraintStart_toEndOf="@+id/imgProfile3"
-            app:layout_constraintTop_toBottomOf="@+id/tvTitle3" />
+            app:layout_constraintStart_toEndOf="@id/imgProfile3"
+            app:layout_constraintTop_toBottomOf="@id/tvTitle3" />
 
         <TextView
             android:id="@+id/tvTime3"
@@ -196,8 +197,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:menu="@menu/btn_nav"
-            tools:layout_editor_absoluteX="0dp"></com.google.android.material.bottomnavigation.BottomNavigationView>
+            app:menu="@menu/btn_nav" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
